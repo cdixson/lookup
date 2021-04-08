@@ -5,9 +5,7 @@ import ObserverForm from './components/ObserverForm.js';
 
 function App() {
   return (
-    <div className="container">
     <ObserverForm />   
-  </div>
   );
 }
 
