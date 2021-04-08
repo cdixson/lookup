@@ -63,26 +63,26 @@ class ObserverForm extends React.Component {
 			<form autoComplete="off" id="add_obs_form">
 			<div className="input-group mb-3">
 				<span className="input-group-text" id="basic-addon1">ID</span>
-				<input type="text" className="form-control" id="id" autoComplete="off" name="id" placeholder="e.g., z18" required="required" maxLength="3"  onChange={this.fetchJSON} />
+				<input type="text" className="form-control" id="id" autoComplete="off" name="id" placeholder="e.g., z93, z14, s43" required="required" maxLength="3"  onChange={this.fetchJSON} />
 			</div>
 			<div className="input-group mb-3">
-				<span className="input-group-text" id="basic-addon4">Password</span>
+				<span className="input-group-text" id="basic-addon2">Password</span>
 				<input type="text" className="form-control" id="passwd" autoComplete="no" name="passwd" required="required" minLength="5" />
 			</div>
 			<div className="input-group mb-3">
-				<span className="input-group-text" id="basic-addon2">First name</span>
+				<span className="input-group-text" id="basic-addon3">First name</span>
 				<input type="text" className="form-control" id="fname" autoComplete="no" name="fname" required="required" disabled />
 			</div>
 			<div className="input-group mb-3">
-				<span className="input-group-text" id="basic-addon3">Last name</span>
+				<span className="input-group-text" id="basic-addon4">Last name</span>
 				<input type="text" className="form-control" id="lname" autoComplete="no" name="lname" required="required" disabled />
 			</div>
 			<div className="input-group mb-3">
-				<span className="input-group-text" id="basic-addon3">Email</span>
+				<span className="input-group-text" id="basic-addon5">Email</span>
 				<input type="email" className="form-control" id="email" autoComplete="no" name="email" required="required" disabled />
 			</div>
 			<div className="input-group mb-3">
-				<span className="input-group-text" id="basic-addon5">Company</span>
+				<span className="input-group-text" id="basic-addon6">Company</span>
 				<input type="text" className="form-control" id="company" autoComplete="no" name="company" required="required" disabled />
 			</div>
 			<button type="submit" className="btn btn-secondary" value="submit" name="submit">Submit</button>
